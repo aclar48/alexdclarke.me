@@ -23,6 +23,12 @@ set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true  # Change to false when not using ActiveRecord
 
+
+set :rbenv_type, :system
+set :rbenv_ruby, '2.3.0'
+set :rbenv_custom_path, '/home/ubuntu/.rbenv/'
+set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
+set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 ## Defaults:
 # set :scm,           :git
 # set :branch,        :master
