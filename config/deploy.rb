@@ -63,8 +63,9 @@ namespace :deploy do
         puts "Run `git push` to sync changes."
         exit
       end
-    en
+    end
   end
+
 
   desc 'Initial Deploy'
   task :initial do
