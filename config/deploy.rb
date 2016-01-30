@@ -30,6 +30,7 @@ set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rben
 set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
 set :linked_files, %w{db/production.sqlite3 config/secrets.yml}
+set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 ## Defaults:
 # set :scm,           :git
@@ -40,7 +41,6 @@ set :linked_files, %w{db/production.sqlite3 config/secrets.yml}
 
 ## Linked Files & Directories (Default None):
 # set :linked_files, %w{config/database.yml}
-# set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
