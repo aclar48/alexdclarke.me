@@ -38,7 +38,7 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
-  gem 'capistrano-console'
+  gem 'capistrano-rails-console'
   gem 'capistrano3-puma'
   gem 'capistrano-ext'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
