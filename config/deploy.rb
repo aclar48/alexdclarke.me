@@ -4,7 +4,7 @@ server '52.34.107.24', user: 'ubuntu', roles: %w(web, app, db), primary: true
 set :repo_url,        'git@github.com:aclar48/alexdclarke.me.git'
 set :application,     'alexdclarke.me'
 set :user,            'ubuntu'
-set :puma_threads,    [4, 16]
+set :puma_threads,    [2, 8]
 set :puma_workers,    0
 
 # Don't change these unless you know what you're doing
