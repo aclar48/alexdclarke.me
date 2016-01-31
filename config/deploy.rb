@@ -5,7 +5,7 @@ set :repo_url,        'git@github.com:aclar48/alexdclarke.me.git'
 set :application,     'alexdclarke.me'
 set :user,            'ubuntu'
 set :puma_threads,    [2, 8]
-set :puma_workers,    0
+set :puma_workers,    1
 shared_path = '/home/ubuntu/rails/apps/alexdclarke.me/shared'
 
 # Don't change these unless you know what you're doing
