@@ -1,8 +1,10 @@
+shared_path = '/home/ubuntu/rails/apps/alexdclarke.me/shared'
+
 # Change to match your CPU core count
-workers fetch(:puma_workers)
+workers 1
 
 # Min and Max threads per worker
-threads fetch(:puma_threads)
+threads 1, 6
 
 app_dir = File.expand_path("../..", __FILE__)
 shared_dir = "#{app_dir}/shared"
@@ -12,14 +14,14 @@ rails_env = ENV['RAILS_ENV'] || "production"
 environment rails_env
 
 # Set up socket location
-bind fetch(:puma_bind)
+bind "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
 
 # Logging
-stdout_redirect fetch(:puma_access_log), fetch(:puma_error_log), true
+stdout_redirect "#{shared_path}/log/puma.access.log", "#{shared_path}/log/puma.error.log", true
 
 # Set master PID and state locations
-pidfile fetch(:puma_pid)
-state_path fetch(:puma_state)
+pidfile  "#{shared_path}/tmp/pids/puma.pid"
+state_path "#{shared_path}/tmp/pids/puma.state"
 activate_control_app
 
 on_worker_boot do
