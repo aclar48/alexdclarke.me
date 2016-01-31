@@ -14,7 +14,7 @@ rails_env = ENV['RAILS_ENV'] || "production"
 environment rails_env
 
 # Set up socket location
-bind "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
+bind "unix://#{shared_path}/tmp/sockets/alexdclarke.me-puma.sock"
 
 # Logging
 stdout_redirect "#{shared_path}/log/puma.access.log", "#{shared_path}/log/puma.error.log", true
