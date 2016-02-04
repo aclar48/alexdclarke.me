@@ -5,4 +5,8 @@ Rails.application.routes.draw do
   # mount ActionCable.server => '/cable'
 
   root 'landing#index'
+
+  get '/pdf_resume', to: 'resumes#pdf'
+  get '/resume', to: 'resumes#show'
+
 end

@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,500italic);
+@import "univeral_variables";
+@import "layouts";
+@import "resume";
+
+@include make-grid(sm);
+@include make-grid(md);
+@include make-grid(lg);

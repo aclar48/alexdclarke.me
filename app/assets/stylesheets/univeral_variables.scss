@@ -1,0 +1,59 @@
+/* COLOURS */
+
+
+$lt_yellow: #E0EB0B;
+$green: #B1DB2F;
+$lt_green: #74FE8C;
+$gray: #EFF0E3;
+$blue_gray: #8DB1B9;
+$dk_blue_gray: #33464e;
+$dk_blue_gray_trans: rgba(51, 70, 78, 0.8);
+/* Other Colours */
+$pure-white: #fff;
+$white: #F6EBEB;
+$black: #000000;
+$light-gray: #ebebeb;
+$dark-gray: #a9a9a9;
+
+// Colour Classes
+.lt_yellow{ color: $lt_yellow; }
+.green{ color: $green; }
+.lt_green{ color: $lt_green; }
+.gray{ color: $gray; }
+.blue_gray{ color: $blue_gray; }
+.dk_blue_gray{ color: $dk_blue_gray; }
+.white { color: $white !important; }
+.black { color: $black; }
+// Background Colour Classes
+.lt_yellow-bg{ background-color: $lt_yellow; }
+.green-bg{ background-color: $green; }
+.lt_green-bg{ background-color: $lt_green; }
+.gray-bg{ background-color: $gray; }
+.blue_gray-bg{ background-color: $blue_gray; }
+.dk_blue_gray-bg{ background-color: $dk_blue_gray; }
+.dk_blue_gray-bg-trans{ background-color: $dk_blue_gray_trans; }
+.pure-white-bg { background-color: $pure-white }
+.white-bg { background-color: $white; }
+.black-bg { background-color: $black; }
+// Border Colour Classes
+.lt_yellow-border{ border-color: $lt_yellow; }
+.green-border{ border-color: $green; }
+.lt_green-border{ border-color: $lt_green; }
+.gray-border{ border-color: $gray; }
+.blue_gray-border{ border-color: $blue_gray; }
+.dk_blue_gray-border{ border-color: $dk_blue_gray; }
+.white-border { border-color: $white; }
+.black-border { border-color: $black; }
+
+/* FONTS */
+
+// Font Sizes
+@for $i from 6 through 60 {
+  .font-#{$i} { font-size: #{$i}px; }
+}
+
+// Default Fonts
+$font-family-base: 'Roboto', sans-serif;
+$font-family-sans-serif: $font-family-base;
+$font-family-serif: 'Roboto', serif;
+
