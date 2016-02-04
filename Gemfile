@@ -21,6 +21,10 @@ gem 'jbuilder', '~> 2.0'
 # Use Puma as the app server
 gem 'puma'
 gem 'react-rails', '~> 1.5.0'
+gem 'twitter-bootstrap-rails', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'font-awesome-rails'
+gem 'sass-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

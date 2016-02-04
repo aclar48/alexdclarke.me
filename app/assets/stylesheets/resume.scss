@@ -1,0 +1,44 @@
+.resume {
+  height: 11in;
+  width: 8in;
+  background-color: $pure-white;
+}
+.resume-header {
+  height: 62px;
+  border-bottom: 1px solid $blue_gray;
+}
+
+.lang-tech {
+ // border-bottom: 1px solid $dk_blue_gray;
+  border-right: 10px solid $blue_gray;
+  text-align: center;
+}
+.education-personal {
+  border-left: 10px solid $dk_blue_gray;
+}
+.additional-skills {
+ // border-top: 1px solid $dk_blue_gray;
+  border-right: 10px solid $blue_gray;
+}
+.personal-skills {
+ // border-top: 1px solid $dk_blue_gray;
+  border-left: 10px solid $dk_blue_gray;
+}
+.experience {
+  border-left: 10px solid $dk_blue_gray;
+}
+.industry-exp {
+  border-left: 10px solid $blue_gray;
+}
+
+.project-exp {
+  border-left: 10px solid $blue-gray;
+}
+.other-exp {
+  border-left: 10px solid $blue_gray;
+}
+.dk-blue-border-left {
+  border-left: 10px solid $dk_blue_gray;
+  position: relative;
+  left: -15px;
+}
