@@ -1,5 +1,5 @@
 # Change these
-server '52.34.107.24', user: 'ubuntu', roles: %w(web, app, db), primary: true
+server '52.89.136.96', user: 'ubuntu', roles: %w(web, app, db), primary: true
 
 set :repo_url,        'git@github.com:aclar48/alexdclarke.me.git'
 set :application,     'alexdclarke.me'
