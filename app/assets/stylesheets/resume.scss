@@ -1,15 +1,19 @@
 .resume {
-  height: 11in;
+  height: 10.5in;
   width: 8in;
   background-color: $pure-white;
 }
 .resume-header {
-  height: 62px;
+  height: 65px;
   border-bottom: 1px solid $blue_gray;
+}
+.resume-footer {
+  height: 40px;
+  position: relative;
+  vertical-align: bottom;
 }
 
 .lang-tech {
- // border-bottom: 1px solid $dk_blue_gray;
   border-right: 10px solid $blue_gray;
   text-align: center;
 }
@@ -17,11 +21,9 @@
   border-left: 10px solid $dk_blue_gray;
 }
 .additional-skills {
- // border-top: 1px solid $dk_blue_gray;
   border-right: 10px solid $blue_gray;
 }
 .personal-skills {
- // border-top: 1px solid $dk_blue_gray;
   border-left: 10px solid $dk_blue_gray;
 }
 .experience {

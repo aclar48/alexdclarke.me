@@ -4,4 +4,7 @@
 @import "univeral_variables";
 @import "layouts";
 @import "resume";
-@import "font-awesome";
+
+@include make-grid(sm);
+@include make-grid(md);
+@include make-grid(lg);
