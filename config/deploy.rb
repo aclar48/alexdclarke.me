@@ -65,6 +65,7 @@ namespace :deploy do
         exit
       end
     end
+  after 'deploy:symlink:shared', 'deploy:compile_assets_locally'
   end
 
 
