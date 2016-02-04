@@ -25,7 +25,8 @@ gem 'twitter-bootstrap-rails', '~> 3.2.0'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'font-awesome-rails'
 gem 'sass-rails'
-
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -48,8 +49,6 @@ group :development do
   gem 'capistrano-ext'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'wicked_pdf'
-  gem 'wkhtmltopdf-binary'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
