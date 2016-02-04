@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   root 'landing#index'
 
-  get '/pdf_resume', to: 'resumes#pdf'
   get '/resume', to: 'resumes#show'
+  get '/pdf_resume', to: 'resumes#pdf' if Rails.env.development?
 
 end
