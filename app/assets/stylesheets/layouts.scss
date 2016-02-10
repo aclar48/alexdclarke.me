@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Roboto', Sans-Serif;
   height: 100%;
-  background-color: $blue_gray;
+  background-color: $dk_blue_gray;
 }
 
 .header {
@@ -12,19 +12,55 @@ body {
   position:fixed;
   top:0px;
   height:50px;
-  margin:0px auto;
+  margin: auto;
   z-index: 999;
 }
 .content {
   height: auto;
-  margin: 70px auto;
+  width: 85%;
+  background-image: asset-data-url("adcbg.png");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: center center;
 }
 
 .center {
   margin: auto;
-  width: 60%;
 }
 
 .navbar {
+  width: 85%;
+  margin: auto;
   border: 0px;
+  border-bottom: 1px solid $dk_blue_gray;
+  border-radius: 0px;
+}
+
+.gap {
+  height: 100px;
+  background-image: asset_data_url("horiz-stripe.png");
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+
+.navbar-default .navbar-brand {
+  color: $white;
+  padding: 18px 10px;
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-text {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.mp-links {
+  border-left: 10px solid $blue_gray;
+}
+.mp-nav {
+  border-right: 10px solid $lt_yellow;
+  height: 50px;
+  padding: 15px 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }

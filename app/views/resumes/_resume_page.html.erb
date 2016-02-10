@@ -1,0 +1,8 @@
+<div class="container-fluid resume-container">
+  <strong class="font-32"> Resume </strong>
+  <br>
+  <br>
+  <%= render 'resumes/resume'%>
+  <br>
+  <%= link_to  asset_path('resume.pdf'), class: 'black pull-right' do %> <span class="fa fa-download fa-lg"></span> <span class="font-16"> Download as PDF </span> <% end %>
+</div>

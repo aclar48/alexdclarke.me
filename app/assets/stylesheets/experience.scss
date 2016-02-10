@@ -1,0 +1,17 @@
+.experience-page {
+  .container-fluid {
+    width: 85%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.exp-logo {
+  border-right: 10px solid $lt_yellow;
+  img {
+    position: relative;
+    right: -9px;
+  }
+}
+.about-exp {
+  border-left: 10px solid $dk_blue_gray;
+}

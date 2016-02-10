@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <strong class="font-32"> Projects </strong>
+  <br>
+  <br>
+  <%= render 'shared/exp_project',
+             image: 'markuslogo.png',
+             title: 'Markus',
+             place_location: nil,
+             github_url: 'https://www.github.com/MarkUsProject/Markus',
+             description: 'Markus is an open-source web based learning management tool aimed at computer-science and software engineering classes, providing features
+             not typically found in other learning management products. Markus is built using Ruby on Rails. My contributions to the project thus far have been in the
+             areas of performance and automated test improvement. I have refactored and reorganized components to allow for sizable performance increases and improvements
+             to user experience. Additionally I resolved issues with a number of automated tests as well as with the continuous integration testing.'
+   %>
+  <br>
+  <br>
+  <%= render 'shared/exp_project',
+             image: 'newcreator.png',
+             title: 'Syllabus Creator',
+             place_location: nil,
+             github_url: 'https://www.github.com/CS4470YProject/syllabus_creator',
+             description: 'Syllabus Creator is a web application aimed at streamlining and improving the process of syllabus creation for professors and instructors at
+             Western University. Syllabus Creator is built using Ruby on Rails. My contributions include: Taking a leading role in designing and implementing the project\'s architecture
+             and back end, setting up a staging environment on AWS using Capistrano for automated deployment, and implementing much of the front-end features. Additionally
+             I have supported team members as they familiarized themselves with Ruby on Rails.'
+  %>
+</div>

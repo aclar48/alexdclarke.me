@@ -18,18 +18,25 @@
             <span class="fa fa-linkedin"></span> <a href="https://ca.linkedin.com/in/alex-clarke-8770a6103">Alex Clarke</a>
           </td>
         </tr>
+        <% if Rails.env.development? %>
+          <tr>
+            <td>
+              <span class="fa fa-globe"></span> <a href="http://www.alexdclarke.me"> www.alexdclarke.me</a>
+            </td>
+            <td>
+              <span class="fa fa-mobile"></span> (226) 700-1697
+            </td>
+          </tr>
+        <% end %>
         <tr>
+          <td>
+            <span class="fa fa-github"></span><a href="http://www.github.com/aclar48"> www.github.com/aclar48</a>&nbsp
+          </td>
+        <% if Rails.env.production? %>
           <td>
             <span class="fa fa-globe"></span> <a href="http://www.alexdclarke.me"> www.alexdclarke.me</a>
           </td>
-          <td>
-            <span class="fa fa-mobile"></span> (226) 700-1697
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span class="fa fa-github"></span><a href="http://www.github.com/aclar48"> www.github.com/aclar48</a>
-          </td>
+        <% end %>
         </tr>
       </table>
     </div>
@@ -54,6 +61,8 @@
             <span class="font-12">Git  </span><br>
             <span class="font-12">Linux  </span><br>
             <span class="font-12">AWS  </span><br>
+            <span class="font-12">Bootstrap  </span><br>
+            <span class="font-12">jQuery  </span><br>
           </div>
         </div>
       </div>
@@ -73,6 +82,8 @@
         <span>&nbsp Object Oriented Software Design</span> <br>
         <span>&nbsp Agile & Scrum</span> <br>
         <span>&nbsp Training in Software Architecture, QA, & Testing</span> <br>
+        <span>&nbsp Artificial Intelligence & Machine Learning</span><br>
+        <span>&nbsp Distributed & Parallel Systems</span>
       </div>
       <div class="col-md-6 personal-skills">
         <strong class="font-16">Personal Skills:</strong> <br>
@@ -80,6 +91,7 @@
         <span>&nbsp Passionate Self-Starter</span> <br>
         <span>&nbsp Driven to Create High-Quality Solutions</span> <br>
         <span>&nbsp Quick Learner & Proficient Problem Solver</span> <br>
+        <span>&nbsp Always Looking to Explore new Technologies</span>
       </div>
     </div>
     <br>
@@ -90,7 +102,7 @@
           <strong class="font-16">Industry:</strong><br>
           <div class="dk-blue-border-left container-fluid">
             <strong> Software Developer Intern, </strong> <br>
-            <strong> Info-Tech Research Group, London, Ontario </strong> <strong class="pull-right"> April 2014 - September 2015 </strong><br>
+            <strong> Info-Tech Research Group, London, Ontario </strong> <strong class="pull-right"> May 2014 - September 2015 </strong><br>
             <span>&nbsp Contributed to Multiple Ruby on Rails Products</span><br>
             <span>&nbsp Worked in Teams Using Agile & Scrum</span><br>
             <span>&nbsp Coordinated & Planned with Team Members & Product Owners</span><br>
@@ -112,6 +124,7 @@
             <span>&nbsp Setup Continuous Integration Testing using TravisCI </span> <br>
             <span>&nbsp Designed & Implemented Back-End Architecture</span><br>
             <span>&nbsp Created Attractive Front-End Design</span><br>
+            <span>&nbsp Coordinated Team Efforts</span><br>
             <span>&nbsp Supported Team Members as they Learned Ruby on Rails</span><br>
           </div>
           <br>
@@ -125,15 +138,7 @@
           </div>
         </div>
       </div>
-      <br>
-      <div class="row">
-        <div class="col-md-12 other-exp">
-          <strong class="font-16">Other:</strong>
-          <div class="dk-blue-border-left container-fluid">
-            <strong> Grooves Records, London, Ontario </strong> <strong class="pull-right"> 2006 - 2014 </strong>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
   <br>
