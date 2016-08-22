@@ -12,7 +12,11 @@
       <table class="pull-right">
         <tr>
           <td>
-            <span class="fa fa-envelope"></span>  alexclarke<span class="fa fa-at"></span>gmail.com
+            <% if Rails.env.development? %>
+              <span class="fa fa-envelope"></span>  <a href="mailto:alexclarke@gmail.com">alexclarke@gmail.com</a>
+            <% else %>
+              <span class="fa fa-envelope"></span>  alexclarke<span class="fa fa-at"></span>gmail.com
+            <% end %>
           </td>
           <td>
             <span class="fa fa-linkedin"></span> <a href="https://ca.linkedin.com/in/alex-clarke-8770a6103">Alex Clarke</a>
@@ -68,7 +72,7 @@
       </div>
       <div class="col-md-7 education-personal">
         <strong class="font-16"> Education: </strong> <br>
-        <strong> Western University </strong> <strong class="pull-right"> 2010 - April 2016</strong><br>
+        <strong> Western University </strong> <strong class="pull-right"> 2010 - 2016</strong><br>
         <span> &nbsp BSc, Honours Specialization in Computer Science </span><br>
         <span>&nbsp Software Engineering Minor</span> <br>
         <span>&nbsp Dean's Honour List</span>
@@ -105,11 +109,20 @@
             <strong> Info-Tech Research Group, London, Ontario </strong> <strong class="pull-right"> May 2014 - September 2015 </strong><br>
             <span>&nbsp Contributed to Multiple Ruby on Rails Products</span><br>
             <span>&nbsp Worked in Teams Using Agile & Scrum</span><br>
-            <span>&nbsp Coordinated & Planned with Team Members & Product Owners</span><br>
             <span>&nbsp Provided Fast & Effective Support for Existing Products</span><br>
             <span>&nbsp Lead Refactoring Efforts Resulting in Improved Performance and Interoperability </span><br>
             <span>&nbsp Participated in Regular Code Reviews </span><br>
-            <span>&nbsp Developed Solutions Spanning Multiple Systems </span><br>
+            <span>&nbsp Developed Solutions Spanning Multiple Systems with RESTful APIs </span><br>
+          </div>
+          <br>
+          <div class="dk-blue-border-left container-fluid">
+            <strong> Software Developer </strong><br>
+            <strong> Applyboard, Kitchener, Ontario</strong> <strong class="pull-right"> May 2016 - Present</strong><br>
+            <span>&nbsp Contributed to a rapidly growing Ruby on Rails Application in a start-up environment </span><br>
+            <span>&nbsp Implemented notification system</span><br>
+            <span>&nbsp Developed a messaging system to facilitate communication between users & internal support</span><br>
+            <span>&nbsp Lead refactoring efforts and improvements in coding standards</span><br>
+            <span>&nbsp Contributed to architectural planning for current and future features</span><br>
           </div>
         </div>
       </div>
@@ -118,23 +131,16 @@
         <div class="col-md-12 project-exp">
           <strong class="font-16">Academic & Personal:</strong><br>
           <div class="dk-blue-border-left container-fluid">
-            <strong> Syllabus Creator (<a href="http://www.github.com/CS4470YProject/syllabus_creator"> <span class="fa fa-github"></span>/syllabus_creator</a> ) </strong> <strong class="pull-right"> September 2015 - Present </strong><br>
+            <strong> Syllabus Creator (<a href="http://www.github.com/CS4470YProject/syllabus_creator"> <span class="fa fa-github"></span>/syllabus_creator</a> ) </strong> <strong class="pull-right"> September 2015 - April 2016 </strong><br>
             <span>&nbsp Developed a Web Application to Streamline the Creation of Course Syllabuses Using Rails </span><br>
-            <span>&nbsp Setup Staging Environment on AWS with Automated Deployment using Capistrano </span><br>
             <span>&nbsp Setup Continuous Integration Testing using TravisCI </span> <br>
             <span>&nbsp Designed & Implemented Back-End Architecture</span><br>
-            <span>&nbsp Created Attractive Front-End Design</span><br>
             <span>&nbsp Coordinated Team Efforts</span><br>
-            <span>&nbsp Supported Team Members as they Learned Ruby on Rails</span><br>
           </div>
           <br>
           <div class="dk-blue-border-left container-fluid">
-            <strong> Markus (<a href="http://github.com/MarkUsProject/Markus"> <span class="fa fa-github"></span>/Markus</a> ) </strong> <strong class="pull-right"> Janurary 2016 - Present </strong><br>
+            <strong> Markus (<a href="http://github.com/MarkUsProject/Markus"> <span class="fa fa-github"></span>/Markus</a> ) </strong> <strong class="pull-right"> January 2016 - April 2016 </strong><br>
             <span>&nbsp Contributed to an Open-Source Web Based Learning Management System Using Rails </span><br>
-            <span>&nbsp Refactored Multiple Methods Substantially Improving Page Load Times </span><br>
-            <span>&nbsp Restored Functionality of Automated Continuous Integration Testing</span><br>
-            <span>&nbsp Refactored and Updated Failing & Incomplete Tests</span><br>
-            <span>&nbsp Coordinated with Remote Team Members</span><br>
           </div>
         </div>
       </div>
