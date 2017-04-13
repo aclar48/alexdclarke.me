@@ -2,6 +2,9 @@
   height: 11in;
   width: 8in;
   background-color: $pure-white;
+  @media(max-width: 1000px) {
+    display: none;
+  }
 
   .resume-header {
     height: 65px;
