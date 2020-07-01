@@ -16,7 +16,7 @@ class ResumesController < ApplicationController
                template: 'resumes/show_pdf.html.erb',
                :show_as_html => params[:debug].present?,
                margin: {
-                   top: 8,
+                   top: 1,
                    bottom: 1,
                    left: 1,
                    right: 1

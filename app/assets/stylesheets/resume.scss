@@ -2,16 +2,16 @@
   height: 11in;
   width: 8in;
   background-color: $pure-white;
-  @media(max-width: 1000px) {
-    display: none;
-  }
+  // @media(max-width: 1000px) {
+  //   display: none;
+  // }
 
   .resume-header {
     height: 65px;
     border-bottom: 1px solid $blue_gray;
   }
   .resume-footer {
-    height: 55px;
+    height: 48px;
     position: relative;
     vertical-align: bottom;
   }
