@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'react-rails', '~> 1.5.0'
 gem 'twitter-bootstrap-rails', '~> 3.2.0'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-rails'
 gem 'sass-rails'
 
